@@ -12,8 +12,6 @@ _base_ = [
     '_base_satrn_shallow.py',
 ]
 
-train_cfg = dict(type='EpochBasedTrainLoop', max_epochs=20, val_interval=1)
-
 # dataset settings
 train_list = [_base_.mjsynth_textrecog_train, _base_.synthtext_textrecog_train]
 test_list = [
