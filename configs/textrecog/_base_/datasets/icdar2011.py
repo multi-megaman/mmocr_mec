@@ -1,4 +1,4 @@
-icdar2011_textrecog_data_root = 'data/icdar_2011/'
+icdar2011_textrecog_data_root = '/kaggle/input/concordance-icdar-2011/icdar_2011'
 
 icdar2011_textrecog_train = dict(
     type='OCRDataset',
